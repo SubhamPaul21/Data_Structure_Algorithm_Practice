@@ -15,6 +15,7 @@ def finder(arr1,arr2):
         if num in numCount and  numCount[num] > 0: # 1 times
             numCount[num] -= 1 # 1 time
         else:
+            print("A is larger than B")
             print("{0} is the missing number".format(num)) # time
 
     #print(numCount)
